@@ -1,0 +1,83 @@
+h1{
+    font-size: 3.5rem !important;
+    color: #3F4E5C !important;
+}
+
+p{
+    color: #697680;
+    font-size: 1.5rem !important;
+
+}
+
+.home-section {
+  overflow: hidden;
+}
+
+/* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for a specific element */
+.element-selector::-webkit-scrollbar {
+  display: none;
+}
+
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    flex-direction: column;
+}
+
+img {
+    padding: 2rem !important;
+}
+
+h3 {
+    padding-top: 2rem;
+}
+
+/* <reset-style> ============================ */
+a {
+    text-decoration: none;
+    color: #3F4E5C;
+    z-index: 999;
+  }
+  /* <main-style> ============================ */
+  .main__scroll-text {
+    color: #3F4E5C;
+  }
+  
+  .main__action:hover .main__scroll-box {
+    animation: scroll-down 1.5s infinite;
+  }
+
+  svg {
+    transform: rotate(270deg);
+  }
+  
+  /* Animate scroll icon */
+  @keyframes scroll-down {
+    0%, 100% {
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+  
+    35% {
+      transform: translateX(1rem);
+      opacity: 0;
+    }
+  
+    70% {
+      transform: translateX(-1rem);
+      opacity: 0;
+    }
+  }
+
+  .cards{
+    transform: translateY(-80px);
+  }
