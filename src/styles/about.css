@@ -1,0 +1,22 @@
+.about_p , .about-section h1{
+    padding: 0rem 4rem;
+    width: 100%;
+    text-align: left;
+    
+}
+
+.about_p , .about-section h2{
+    padding: 0rem 4rem;
+    width: 100%;    
+}
+
+.about-section h2{
+    font-size: 3rem !important;
+}
+
+.about_p {
+    background: #ffffff57;
+    padding: 2rem;
+    font-size: 1rem !important;
+    border-radius: 24px;
+}
