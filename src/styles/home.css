@@ -11,8 +11,21 @@ p{
 
 .home-section {
   overflow: hidden;
+  padding-top: 8rem;
 }
 
+.recordes{
+  width: 100%;
+}
+
+.demos {
+  width: 100%;
+  padding: 2rem;
+  background: #dfe9ee;
+  margin-top: 4rem;
+  box-shadow: 2px 12px 197px 2px #79bcff;
+
+}
 /* Hide scrollbar for all elements */
 ::-webkit-scrollbar {
   display: none;
@@ -29,7 +42,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 8rem;
     flex-direction: column;
 }
 
@@ -56,7 +68,7 @@ a {
     animation: scroll-down 1.5s infinite;
   }
 
-  svg {
+  .main__scroll-box svg {
     transform: rotate(270deg);
   }
   

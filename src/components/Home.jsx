@@ -2,7 +2,9 @@ import { motion } from 'framer-motion';
 import '../styles/home.css';
 import {Link} from 'react-router-dom'
 import Services from './Services'
-import Pricing from './Pricing'
+import Records from './Records'
+import Demos from './Demos'
+
 function Home() {
 
   const sectionVariants = {
@@ -63,9 +65,12 @@ function Home() {
       <div className='cards'>
         <Services />
       </div>
-      {/* <div className="pricing">
-        <Pricing />
-      </div> */}
+      <div className='recordes'>
+        <Records />
+      </div>
+      <div className='demos'>
+        <Demos />
+      </div>
     </>
   );
 }

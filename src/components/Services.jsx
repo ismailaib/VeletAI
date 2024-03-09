@@ -29,7 +29,7 @@ function Cards() {
     {
       id: 3,
       title: "ImageGenius",
-      pricing: "15$",
+      pricing: "Free",
       subTitle: "Create Stunning Images",
       description: "Unleash your creativity with ImageGenius. Generate captivating images for your projects with ease. From abstract designs to realistic scenes, ImageGenius has you covered.",
       link: "/imagegenius"
@@ -37,7 +37,7 @@ function Cards() {
     {
       id: 4,
       title: "TextPerfect",
-      pricing: "20$",
+      pricing: "Free",
       subTitle: "Polish Your Texts",
       description: "Transform your written content with TextPerfect. Automatically correct grammar, punctuation, and style errors to produce flawless text. Impress your readers with professional-quality writing.",
       link: "/textperfect"

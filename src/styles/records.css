@@ -1,0 +1,26 @@
+.records {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: center;
+    width: 100% !important;
+    justify-content: space-evenly;
+}
+.record {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 15rem;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.record h3 {
+    font-size: 3rem !important;
+    color: #3f4e5c;
+}
+
+.record p {
+    font-size: 1rem !important;
+}
