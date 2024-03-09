@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import '../styles/home.css';
 import {Link} from 'react-router-dom'
 import Services from './Services'
-import Records from './Records'
-import Demos from './Demos'
+import About from './About'
+import Footer from './Footer'
 
 function Home() {
 
@@ -65,12 +65,10 @@ function Home() {
       <div className='cards'>
         <Services />
       </div>
-      <div className='recordes'>
-        <Records />
-      </div>
       <div className='demos'>
-        <Demos />
+        <About />
       </div>
+      <Footer />
     </>
   );
 }

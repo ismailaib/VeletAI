@@ -21,11 +21,21 @@ p{
 .demos {
   width: 100%;
   padding: 2rem;
-  background: #dfe9ee;
+  background: #ffffff;
   margin-top: 4rem;
-  box-shadow: 2px 12px 197px 2px #79bcff;
-
+  padding-bottom: 0rem;
 }
+
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: row;
+  padding: 0.5rem;
+  margin: 0rem;
+}
+
 /* Hide scrollbar for all elements */
 ::-webkit-scrollbar {
   display: none;
