@@ -22,8 +22,9 @@
     cursor: pointer;
     transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
-
-
+#card:hover {
+    transform:translateY(-15px);
+}
 
 
 .card {

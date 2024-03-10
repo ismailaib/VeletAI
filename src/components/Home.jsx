@@ -1,9 +1,10 @@
+
 import { motion } from 'framer-motion';
 import '../styles/home.css';
 import {Link} from 'react-router-dom'
 import Services from './Services'
 import About from './About'
-import Footer from './Footer'
+import { useEffect } from 'react';
 
 function Home() {
 
@@ -35,6 +36,10 @@ function Home() {
     history.push(path);
   };
 
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
+
   return (
     <>
       <motion.section
@@ -50,8 +55,8 @@ function Home() {
           src="/home_image_1.svg"
           alt="Home Image"
         />
-        <Link className="main__action" to='/about'>
-          <a className="main__scroll" href="#" onClick={() => handleNavigate('/services')}>
+        <Link className="main__action" to='/howtouse'>
+          <a className="main__scroll" href="#" onClick={() => handleNavigate('/howtouse')}>
             <div className="main__scroll-box">
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0h24v24H0z" fill="none"></path>
@@ -68,7 +73,6 @@ function Home() {
       <div className='demos'>
         <About />
       </div>
-      <Footer />
     </>
   );
 }

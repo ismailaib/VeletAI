@@ -45,9 +45,6 @@ function About() {
             Join us on our journey to reshape the future of work and creativity. Let's unlock new possibilities, together.
           </p>
         </motion.section>
-        <div>
-          <img src="" alt="" />
-        </div>
       </div>
     </>
   );

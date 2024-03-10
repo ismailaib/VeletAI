@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'; // Import motion from framer-motion
 import '../styles/menu.css';
 
 function Menu({onChangeShape }) {
-  const elements = ["Home","About", "Contact"];
-  const paths = ["/","/about", "/contact"];
+  const elements = ["Home","How To Use", "Api", "Contact"];
+  const paths = ["/", "/howtouse", "/api", "/contact"];
   const [scrollBg, setScrollBg] = useState(false);
 
   const headerVariants = {

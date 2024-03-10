@@ -1,5 +1,6 @@
 {
   "name": "my-project",
+  "homepage":"https://veletai.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",

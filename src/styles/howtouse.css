@@ -1,0 +1,13 @@
+.howtouse-section p {
+    font-size: 1.3rem !important;
+}
+
+.howtouse-section h2 {
+    font-size: 3rem !important;
+}
+
+.howtouse-section {
+    opacity: 1;
+    transform: none;
+    padding: 2rem 8rem;
+}

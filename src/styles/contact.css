@@ -1,0 +1,50 @@
+.contact-section {
+    opacity: 1;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input {
+    width: 25rem;
+    font-size: 1.5rem !important;
+    height: 2rem !important;
+    padding: 2rem 1rem !important;
+    background: #f5f7f9;
+    color: #3f4e5c !important;
+}
+
+textarea {
+    width: 25rem;
+    padding: 0.5rem !important;
+    height: 20rem;
+    background: #f5f7f9;
+    color: #3f4e5c !important;
+}
+
+.contact {
+    padding: 4rem 0rem;
+    width: 100%;
+}
+.contact button{
+    width: 100%;
+    background: #3f4e5c;
+    color: white;
+}
+
